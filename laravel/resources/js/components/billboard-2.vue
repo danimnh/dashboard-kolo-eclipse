@@ -23,9 +23,10 @@ img.person-1 {
     top: 170px;
     left: 690px;
     /* left: 180px; */
-    /* tiap nambah orang + 127 px( 307 - 180 )  */
+    /* tiap nambah orang + 127 px( 307 - 180 ) <- belom pasti jg */
     z-index: 3;
 }
+/* ini efek hover */
 img.person-1:hover {
     transform: scale(1.2);
 }
@@ -35,6 +36,7 @@ img.bglayer {
     bottom: 100;
     left: 0;
     right: 0;
+    /* top ini sering diubah menyesuaikan */
     top: -38;
     z-index: 3;
     position: relative;

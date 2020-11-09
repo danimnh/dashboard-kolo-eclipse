@@ -5093,9 +5093,64 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    console.log("Component mounted.");
+    console.log("billboard-1 mounted");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        name: "person1",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }]
+    };
+  },
+  setup: function setup() {
+    function imgOnClick() {
+      console.log("img clicked");
+    }
+
+    return {
+      imgOnClick: imgOnClick
+    };
   }
 });
 
@@ -5212,9 +5267,57 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        name: "person1",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }, {
+        name: "person10",
+        image: "https://i.ibb.co/dByWr6t/person-1.png"
+      }]
+    };
   }
 });
 
@@ -9715,7 +9818,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.bg[data-v-636362a8] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.person-1[data-v-636362a8] {\r\n    height: 130px;\r\n    position: absolute;\r\n    top: 100px;\r\n    left: 490px;\r\n    /* left: 180px; */\r\n    /* tiap nambah orang + 127 px( 307 - 180 )  */\r\n    z-index: 2;\n}\nimg.person-1[data-v-636362a8]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-636362a8] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -24;\r\n    z-index: 2;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-636362a8] {\r\n    display: flex;\r\n    margin-left: 10vw;\r\n    margin-top: -152;\n}\r\n/* img.bg {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\r\n} */\nimg.persons[data-v-636362a8] {\r\n    max-width: 8%;\r\n    margin-top: 20;\r\n    margin-right: 1vw;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    z-index: 2;\n}\nimg.persons[data-v-636362a8]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-636362a8] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -24;\r\n    z-index: 2;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -9753,7 +9856,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.person-1[data-v-5ecd560c] {\r\n    height: 130px;\r\n    position: absolute;\r\n    left: 307px;\r\n    /* left: 180px; */\r\n    /* tiap nambah orang + 127 px( 307 - 180 )  */\n}\nimg.person-1[data-v-5ecd560c]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -12;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-5ecd560c] {\r\n    margin-left: 60;\r\n    margin-top: -152;\n}\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-5ecd560c] {\r\n    height: 130px;\r\n    width: 100px;\r\n    margin-top: 20;\r\n    /* margin-right: 5vw; */\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    z-index: 0;\n}\nimg.person-1[data-v-5ecd560c]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -12;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -41662,29 +41765,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("div", { staticClass: "marginleft" }, [
+      _c(
+        "div",
+        { staticClass: "box" },
+        _vm._l(_vm.profiles, function(profile) {
+          return _c("img", {
+            key: profile.name,
+            staticClass: "persons",
+            attrs: { src: profile.image }
+          })
+        }),
+        0
+      )
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-3.png */ "./public/billboard-layer-3.png"), alt: "" }
+    })
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("img", {
-        staticClass: "person-1",
-        attrs: { src: __webpack_require__(/*! ../../../public/person-1.png */ "./public/person-1.png"), alt: "" }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "bglayer",
-        attrs: {
-          src: __webpack_require__(/*! ../../../public/billboard-layer-3.png */ "./public/billboard-layer-3.png"),
-          alt: ""
-        }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -41767,11 +41870,6 @@ var staticRenderFns = [
       }),
       _vm._v(" "),
       _c("img", {
-        staticClass: "person-1",
-        attrs: { src: __webpack_require__(/*! ../../../public/person-1.png */ "./public/person-1.png"), alt: "" }
-      }),
-      _vm._v(" "),
-      _c("img", {
         staticClass: "bg",
         attrs: {
           src: __webpack_require__(/*! ../../../public/billboard-layer-1.png */ "./public/billboard-layer-1.png"),
@@ -41810,17 +41908,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("billboard-top"),
-      _vm._v(" "),
-      _c("billboard-1"),
-      _vm._v(" "),
-      _c("billboard-2")
-    ],
-    1
-  )
+  return _c("div", [_c("billboard-top"), _vm._v(" "), _c("billboard-1")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
