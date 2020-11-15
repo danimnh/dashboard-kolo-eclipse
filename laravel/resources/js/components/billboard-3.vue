@@ -12,14 +12,14 @@
         </div>
         <img
             class="bglayer"
-            src="../../../public/billboard-layer-2.png"
+            src="../../../public/billboard-layer-3.png"
             alt=""
         />
     </div>
 </template>
 <style scoped>
 div.marginleft {
-    /* margin-left: 10px; */
+    margin-left: 110px;
     margin-top: -150px;
 }
 img.bg {
@@ -33,7 +33,7 @@ img.bg {
 img.persons {
     max-width: 150px;
     margin-top: -40;
-    margin-left: 38px;
+    margin-left: 35px;
     position: relative;
     object-fit: cover;
     /* left: 180px; */
@@ -47,7 +47,7 @@ img.persons:hover {
 img.bglayer {
     max-width: 100%;
     max-height: 100%;
-    bottom: 56;
+    bottom: 55;
     left: 0;
     right: 0;
     /* top ini sering diubah menyesuaikan */
@@ -59,7 +59,7 @@ img.bglayer {
 <script>
 export default {
     mounted() {
-        console.log("billboard-2 mounted.");
+        console.log("billboard-3 mounted.");
     },
     data() {
         return {
@@ -98,10 +98,6 @@ export default {
                 },
                 {
                     name: "person9",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person10",
                     image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 }
             ]

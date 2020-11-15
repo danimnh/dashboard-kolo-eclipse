@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="marginleft">
-            <div class="box">
+            <div>
                 <img
                     v-for="profile in profiles"
                     :src="profile.image"
@@ -20,9 +20,8 @@
 </template>
 <style scoped>
 div.marginleft {
-    display: flex;
-    margin-left: 10vw;
-    margin-top: -152;
+    margin-left: 160px;
+    margin-top: -195px;
 }
 /* img.bg {
     max-width: 100%;
@@ -33,9 +32,9 @@ div.marginleft {
     top: 0;
 } */
 img.persons {
-    max-width: 8%;
-    margin-top: 20;
-    margin-right: 1vw;
+    max-width: 150px;
+    margin-top: 0;
+    margin-right: 33px;
     position: relative;
     object-fit: cover;
     z-index: 2;
@@ -49,7 +48,7 @@ img.bglayer {
     bottom: 100;
     left: 0;
     right: 0;
-    top: -24;
+    top: -53;
     z-index: 2;
     position: relative;
 }
@@ -64,39 +63,39 @@ export default {
             profiles: [
                 {
                     name: "person1",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person2",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person3",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person4",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person5",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person6",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person7",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person8",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 },
                 {
                     name: "person9",
-                    image: "https://i.ibb.co/dByWr6t/person-1.png"
+                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
                 }
             ]
         };

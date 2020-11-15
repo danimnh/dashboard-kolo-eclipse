@@ -19,6 +19,8 @@ Vue.component(
 );
 Vue.component("billboard-1", require("./components/billboard-1.vue").default);
 Vue.component("billboard-2", require("./components/billboard-2.vue").default);
+Vue.component("billboard-3", require("./components/billboard-3.vue").default);
+Vue.component("billboard-4", require("./components/billboard-4.vue").default);
 
 const app = new Vue({
     el: "#app",
