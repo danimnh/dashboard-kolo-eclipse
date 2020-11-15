@@ -1,5 +1,48 @@
 <template>
     <div>
+        <div
+            class="modal"
+            id="basicModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="basicModal"
+            aria-hidden="true"
+            data-backdrop="false"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">
+                            Basic Modal
+                        </h4>
+                        <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                        >
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Modal Body</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-default"
+                            data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <img class="bg" src="../../../public/billboard-textbox.png" alt="" />
         <img class="bg" src="../../../public/billboard-layer-1.png" alt="" />
         <!-- render img of each IDs  -->
@@ -9,6 +52,8 @@
                 :src="profile.image"
                 :key="profile.name"
                 class="persons"
+                data-toggle="modal"
+                data-target="#basicModal"
             />
         </div>
         <img
@@ -19,6 +64,14 @@
     </div>
 </template>
 <style scoped>
+.modal {
+    background-color: black;
+    opacity: 0.75;
+    /* !important; */
+}
+.modal-backdrop {
+    background-color: transparent;
+}
 div.marginleft {
     margin-left: 60;
     margin-top: -152;

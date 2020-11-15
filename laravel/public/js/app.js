@@ -5546,6 +5546,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -5598,6 +5651,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -10167,7 +10221,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv.marginleft[data-v-5ecd560c] {\r\n    margin-left: 60;\r\n    margin-top: -152;\n}\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-5ecd560c] {\r\n    max-width: 150px;\r\n    margin-top: 20;\r\n    margin-right: 33px;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    z-index: 0;\n}\nimg.persons[data-v-5ecd560c]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -57;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\n.modal[data-v-5ecd560c] {\r\n    background-color: black;\r\n    opacity: 0.75;\r\n    /* !important; */\n}\n.modal-backdrop[data-v-5ecd560c] {\r\n    background-color: transparent;\n}\ndiv.marginleft[data-v-5ecd560c] {\r\n    margin-left: 60;\r\n    margin-top: -152;\n}\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-5ecd560c] {\r\n    max-width: 150px;\r\n    margin-top: 20;\r\n    margin-right: 33px;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    z-index: 0;\n}\nimg.persons[data-v-5ecd560c]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -57;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -42309,6 +42363,8 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
     _c("img", {
       staticClass: "bg",
       attrs: { src: __webpack_require__(/*! ../../../public/billboard-textbox.png */ "./public/billboard-textbox.png"), alt: "" }
@@ -42326,7 +42382,11 @@ var render = function() {
         return _c("img", {
           key: profile.name,
           staticClass: "persons",
-          attrs: { src: profile.image }
+          attrs: {
+            src: profile.image,
+            "data-toggle": "modal",
+            "data-target": "#basicModal"
+          }
         })
       }),
       0
@@ -42338,7 +42398,90 @@ var render = function() {
     })
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal",
+        attrs: {
+          id: "basicModal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "basicModal",
+          "aria-hidden": "true",
+          "data-backdrop": "false"
+        }
+      },
+      [
+        _c("div", { staticClass: "modal-dialog modal-dialog-centered" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c(
+                "h4",
+                { staticClass: "modal-title", attrs: { id: "myModalLabel" } },
+                [
+                  _vm._v(
+                    "\n                        Basic Modal\n                    "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "close",
+                  attrs: {
+                    type: "button",
+                    "data-dismiss": "modal",
+                    "aria-label": "Close"
+                  }
+                },
+                [
+                  _c("span", { attrs: { "aria-hidden": "true" } }, [
+                    _vm._v("×")
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("h3", [_vm._v("Modal Body")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default",
+                  attrs: { type: "button", "data-dismiss": "modal" }
+                },
+                [
+                  _vm._v(
+                    "\n                        Close\n                    "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                { staticClass: "btn btn-primary", attrs: { type: "button" } },
+                [
+                  _vm._v(
+                    "\n                        Save changes\n                    "
+                  )
+                ]
+              )
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -42360,31 +42503,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("billboard-top"),
-      _vm._v(" "),
-      _c("billboard-1"),
-      _vm._v(" "),
-      _c("billboard-2"),
-      _vm._v(" "),
-      _c("billboard-3"),
-      _vm._v(" "),
-      _c("billboard-2"),
-      _vm._v(" "),
-      _c("billboard-3"),
-      _vm._v(" "),
-      _c("billboard-2"),
-      _vm._v(" "),
-      _c("billboard-3"),
-      _vm._v(" "),
-      _c("billboard-2"),
-      _vm._v(" "),
-      _c("billboard-3")
-    ],
-    1
-  )
+  return _c("div", [_c("billboard-top")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true

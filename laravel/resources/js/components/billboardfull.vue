@@ -1,7 +1,8 @@
 <template>
     <div>
+        <!-- top udah 1 row profile jg -->
         <billboard-top />
-        <billboard-1 />
+        <!-- <billboard-1 />
         <billboard-2 />
         <billboard-3 />
         <billboard-2 />
@@ -9,7 +10,7 @@
         <billboard-2 />
         <billboard-3 />
         <billboard-2 />
-        <billboard-3 />
+        <billboard-3 /> -->
     </div>
 </template>
 
