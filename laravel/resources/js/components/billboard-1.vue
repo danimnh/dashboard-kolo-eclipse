@@ -32,12 +32,16 @@ div.marginleft {
     top: 0;
 } */
 img.persons {
-    max-width: 150px;
-    margin-top: 0;
-    margin-right: 33px;
-    position: relative;
-    object-fit: cover;
-    z-index: 2;
+    /* max-width: 150px; */
+    /* width: 100%;
+    height: auto; */
+    /* margin-top: 0;
+    margin-right: 33px; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* max-width: 180px; */
+    /* height: auto; */
+    /* z-index: 2; */
 }
 img.persons:hover {
     transform: scale(1.2);
