@@ -1,11 +1,40 @@
 <template>
-    <img :src="profile.image" class="persons" />
+    <fragment>
+        <img
+            @click="showModal = !showModal"
+            :src="profile.image"
+            class="persons"
+            data-toggle="modal"
+            data-target="#basicModal"
+        />
+        <modal
+            @closeModal="childCloseModal"
+            v-if="showModal"
+            :profile="profile"
+        />
+    </fragment>
 </template>
 
 <script>
+import modal from "./modal";
+
 export default {
+    components: {
+        modal
+    },
     props: {
         profile: Object
+    },
+    data() {
+        return {
+            showModal: false
+        };
+    },
+    methods: {
+        childCloseModal(value) {
+            this.showModal = value;
+            // console.log(value);
+        }
     }
 };
 </script>

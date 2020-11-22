@@ -5,6 +5,15 @@
         <!-- render img of each IDs  -->
         <!-- <div class="marginleft"> -->
         <div class="row">
+            <div class="col">
+                <div class="marginleft">
+                    <imgcomponent
+                        v-for="profile in profiles"
+                        :key="profile.id"
+                        :profile="profile"
+                    />
+                </div>
+            </div>
             <!-- <img
                         v-for="profile in profiles"
                         :src="profile.image"
@@ -13,13 +22,6 @@
                         data-toggle="modal"
                         data-target="#basicModal"
                     /> -->
-            <div class="marginleft">
-                <imgcomponent
-                    v-for="profile in profiles"
-                    :key="profile.id"
-                    :profile="profile"
-                />
-            </div>
         </div>
         <!-- </div> -->
         <img
@@ -93,47 +95,65 @@ export default {
                 {
                     id: 2,
                     name: "person2",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "http://via.placeholder.com/125x144",
+                    judul: "asdasd",
+                    jadwal: "besok"
                 },
                 {
                     id: 3,
                     name: "person3",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 4,
                     name: "person4",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 5,
                     name: "person5",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 6,
                     name: "person6",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 7,
                     name: "person7",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 8,
                     name: "person8",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 9,
                     name: "person9",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 },
                 {
                     id: 10,
                     name: "person10",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    judul: "abcde",
+                    jadwal: "sekarang"
                 }
             ]
         };

@@ -12,9 +12,10 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="myModalLabel">
-                        {{ profiles[0].name }}
+                        {{ profile.name }}
                     </h4>
                     <button
+                        v-on:click="onClickButton(false)"
                         type="button"
                         class="close"
                         data-dismiss="modal"
@@ -24,11 +25,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h3>{{ profiles[0].judul }}</h3>
-                    <h3>{{ profiles[0].jadwal }}</h3>
+                    <h3>{{ profile.judul }}</h3>
+                    <h3>{{ profile.jadwal }}</h3>
                 </div>
                 <div class="modal-footer">
                     <button
+                        v-on:click="onClickButton(false)"
                         type="button"
                         class="btn btn-default"
                         data-dismiss="modal"
@@ -43,3 +45,19 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    props: {
+        profile: Object,
+        showModal: Boolean
+    },
+    methods: {
+        onClickButton(event) {
+            this.$emit("closeModal", false);
+        }
+    }
+};
+</script>
+
+<style></style>
