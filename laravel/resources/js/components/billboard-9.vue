@@ -21,7 +21,7 @@
 <style scoped>
 div.marginleft {
     margin-left: 175px;
-    margin-top: -220px;
+    margin-top: -370px;
 }
 img.bg {
     max-width: 100%;
@@ -35,8 +35,8 @@ img.bg {
 img.bglayer {
     max-width: 100%;
     max-height: 100%;
-    bottom: 93;
-    left: 16;
+    bottom: 243;
+    left: 18;
     right: 0;
     /* top ini sering diubah menyesuaikan */
     /* top: -38; */
@@ -59,7 +59,7 @@ export default {
                 {
                     //30-38
                     id: 30,
-                    name: "Muhammad Rifqi Prabantoro",
+                    name: "BILLBOARD 9",
                     image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
                     judul:
                         "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",

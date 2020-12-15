@@ -5051,6 +5051,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
 //
 //
 //
@@ -5088,61 +5089,79 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
   mounted: function mounted() {
     console.log("billboard-1 mounted");
   },
   data: function data() {
     return {
       profiles: [{
-        name: "person1",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 11,
+        name: "Julius Christoper Siswanto",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "16:30 - 17:00"
       }, {
-        name: "person2",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 12,
+        name: "Ahmad Al-Banjaran Coeur d’Alene",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Identifikasi Lahan Bawang Putih di Sembalun Menggunakan Citra Sentinel 1-A dan Ensemble Learning",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "17:00 - 17:30"
       }, {
-        name: "person3",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 13,
+        name: "Rizky Syawal Putra Thahirperson10",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Reengineering Aplikasi Patroli Karhutla dengan Business Logic Component Pattern dan Layered Architecture",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "15:30 - 16:00"
       }, {
-        name: "person4",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 14,
+        name: "M. Kamil",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Modul Akuisisi Data Pada Aplikasi Patroli Terpadu Kebakaran Hutan dan Lahan Menggunakan Metode Prototyping",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "16:00 - 16:30"
       }, {
-        name: "person5",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 15,
+        name: "Fakhoor Izaaz Wildhanrahman",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Perancangan User Experience Aplikasi HIJRAH ID dalam Peningkatan Literasi Zakat untuk Mualaf dengan Metode The Wheel",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "16:30 - 17:00"
       }, {
-        name: "person6",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 16,
+        name: "Muhammad Nur Hidayat",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Front-End Sistem Rantai Pasok Bawang Merah Berbasis Blockchain Menggunakan Metode Prototyping.",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "17:00 - 17:30"
       }, {
-        name: "person7",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 17,
+        name: "Rizha Al-fajri",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pemodelan Pergerakan Manusia Terhadap Penyebaran COVID-19 di Jawa Timur Menggunakan Algoritme Distance-Decay Pagerank",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "15:30 - 16:00"
       }, {
-        name: "person8",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 18,
+        name: "Yasmin Salamah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Uji Kebergunaan Jarak Jauh Fitur Pencatatan Kesehatan Pribadi pada Aplikasi Mobile Thymun untuk Penderita Penyakit Kronis",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "16:00 - 16:30"
       }, {
-        name: "person9",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 19,
+        name: "Lanang Satia Aji",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Back-End Knowledge Management System Budidaya Tanaman Buah",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "16:30 - 17:00"
       }]
     };
   },
@@ -5168,6 +5187,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
 //
 //
 //
@@ -5214,54 +5234,87 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
   mounted: function mounted() {
     console.log("billboard-2 mounted.");
   },
   data: function data() {
     return {
       profiles: [{
-        name: "person1",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        //Kloter 2
+        id: 20,
+        name: "Cindana Putri Ramadhani",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
       }, {
-        name: "person2",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 21,
+        name: "Anisa Nurjanah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
       }, {
-        name: "person3",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 22,
+        name: "Muhammad Dani Alfaris",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
       }, {
-        name: "person4",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 23,
+        name: "Indah Puspita",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
       }, {
-        name: "person5",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 24,
+        name: "Mursyid Alhadi",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
       }, {
-        name: "person6",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 25,
+        name: "Hedianto Agus Widodo",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
       }, {
-        name: "person7",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 26,
+        name: "Ryvan Arnandha Putra",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
       }, {
-        name: "person8",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 27,
+        name: "Fadia Ramadhana",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
       }, {
-        name: "person9",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 28,
+        name: "Haidar Muhammad Yasin",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "12:30 - 13:00"
       }, {
-        name: "person10",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
+        id: 29,
+        name: "I Nyoman Rai Widartha Kesuma",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:00 - 13:30"
       }]
     };
   }
@@ -5273,223 +5326,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-3.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log("billboard-3 mounted.");
-  },
-  data: function data() {
-    return {
-      profiles: [{
-        name: "person1",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person2",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person3",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person4",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person5",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person6",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person7",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person8",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person9",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-4.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-4.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log("billboard-4 mounted.");
-  },
-  data: function data() {
-    return {
-      profiles: [{
-        name: "person1",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person2",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person3",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person4",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person5",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person6",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person7",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person8",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person9",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }, {
-        name: "person10",
-        image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-      }]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-top.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-top.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5513,6 +5349,801 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-3 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //30-38
+        id: 30,
+        name: "Muhammad Rifqi Prabantoro",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:30 - 14:00"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-4.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-4.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-2 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //39-48
+        id: 20,
+        name: "BILLBOARD4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 21,
+        name: "Anisa Nurjanah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 22,
+        name: "Muhammad Dani Alfaris",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 23,
+        name: "Indah Puspita",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 24,
+        name: "Mursyid Alhadi",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 25,
+        name: "Hedianto Agus Widodo",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 26,
+        name: "Ryvan Arnandha Putra",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 27,
+        name: "Fadia Ramadhana",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 28,
+        name: "Haidar Muhammad Yasin",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "12:30 - 13:00"
+      }, {
+        id: 29,
+        name: "I Nyoman Rai Widartha Kesuma",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:00 - 13:30"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-5.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-2 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //58-67
+        id: 20,
+        name: "BILLBOARD 5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 21,
+        name: "Anisa Nurjanah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 22,
+        name: "Muhammad Dani Alfaris",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 23,
+        name: "Indah Puspita",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 24,
+        name: "Mursyid Alhadi",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 25,
+        name: "Hedianto Agus Widodo",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 26,
+        name: "Ryvan Arnandha Putra",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 27,
+        name: "Fadia Ramadhana",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
+        jadwal: "Senin, 7 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 28,
+        name: "Haidar Muhammad Yasin",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "12:30 - 13:00"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-6.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-3 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //
+        id: 30,
+        name: "billboard6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:30 - 14:00"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person10",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-7.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-3 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //30-38
+        id: 30,
+        name: "BILLBOARD 7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:30 - 14:00"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-8.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-3 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //
+        id: 30,
+        name: "BILLBOARD8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:30 - 14:00"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-9.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    imgcomponent: _imgcomponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    console.log("billboard-3 mounted.");
+  },
+  data: function data() {
+    return {
+      profiles: [{
+        //30-38
+        id: 30,
+        name: "BILLBOARD 9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
+        jadwal: "Selasa, 8 Desember 2020",
+        pukul: "13:30 - 14:00"
+      }, {
+        name: "person2",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person3",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person4",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person5",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person6",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person7",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person8",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }, {
+        name: "person9",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-top.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-top.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _imgcomponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgcomponent */ "./resources/js/components/imgcomponent.vue");
 //
 //
 //
@@ -5583,541 +6214,77 @@ __webpack_require__.r(__webpack_exports__);
     return {
       windowWidth: window.innerWidth,
       profiles: [{
-           //kloter 1
-           id: 1,
-           name: "Irfan Alghani Khalid",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Prediksi Kandidat Senyawa Herbal Sebagai Obat Anti-Virus SARS-CoV-2 Menggunakan Pemodelan Convolutional Neural Network",
-           jadwal: "Senin, 30 November 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 2,
-           name: "Refianto Damai Darmawan",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Screening Senyawa Herbal dengan Komputasi GPU pada Basis Data ZINC melalui Pendekatan Machine Learning",
-           jadwal: "Senin, 30 November 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 3,
-           name: "Dwi Fristanti Sagala ",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pencarian Protein Signifikan Terkait Inflamasi pada COVID-19 Dengan Menggunakan Skyline Query",
-           jadwal: "Senin, 30 November 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 4,
-           name: "Muh Alif Hanif Fadilah",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Graf Traversing menggunakan teknik Branch and Bound untuk menemukan Senyawa Herbal untuk COVID-19",
-           jadwal: "Senin, 30 November 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 5,
-           name: "Elia Samuel",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Simulasi Real Time Lintasan Kabut Asap Karhutla dengan HYSPLIT",
-           jadwal: "Selasa, 1 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 6,
-           name: "Fahreza Ikhsan Hafiz",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Klasifikasi Citra Histopatologi Kanker Serviks Menggunakan Metode Transfer Learning",
-           jadwal: "Selasa, 1 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 7,
-           name: "Mickael",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Verifikasi Lintasan Kabut Asap Karhutla menggunakan Citra Himawari 8",
-           jadwal: "Selasa, 1 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 8,
-           name: "Intan Aida Rahmani",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Penerapan Algoritme Maximum Likelihood dan K-Nearest Neighbour untuk Identifikasi Lahan Bawang Putih Menggunakan Citra Sentinel 1-A",
-           jadwal: "Selasa, 1 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 9,
-           name: "Alfian Hamam Akbar",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network dan Support Vector Machine",
-           jadwal: "Rabu, 2 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 10,
-           name: "M. Fakhri 'Alauddin Hidayat",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Sistem Informasi Manajemen Data Patroli Pencegahan Karhutla di Wilayah Sumatera",
-           jadwal: "Rabu, 2 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 11,
-           name: "Julius Christoper Siswanto",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network",
-           jadwal: "Rabu, 2 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 12,
-           name: "Ahmad Al-Banjaran Coeur d’Alene",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Identifikasi Lahan Bawang Putih di Sembalun Menggunakan Citra Sentinel 1-A dan Ensemble Learning",
-           jadwal: "Rabu, 2 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 13,
-           name: "Rizky Syawal Putra Thahirperson10",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Reengineering Aplikasi Patroli Karhutla dengan Business Logic Component Pattern dan Layered Architecture",
-           jadwal: "Kamis, 3 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 14,
-           name: "M. Kamil",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Akuisisi Data Pada Aplikasi Patroli Terpadu Kebakaran Hutan dan Lahan Menggunakan Metode Prototyping",
-           jadwal: "Kamis, 3 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 15,
-           name: "Fakhoor Izaaz Wildhanrahman",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan User Experience Aplikasi HIJRAH ID dalam Peningkatan Literasi Zakat untuk Mualaf dengan Metode The Wheel",
-           jadwal: "Kamis, 3 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 16,
-           name: "Muhammad Nur Hidayat",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Front-End Sistem Rantai Pasok Bawang Merah Berbasis Blockchain Menggunakan Metode Prototyping.",
-           jadwal: "Kamis, 3 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 17,
-           name: "Rizha Al-fajri",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Pergerakan Manusia Terhadap Penyebaran COVID-19 di Jawa Timur Menggunakan Algoritme Distance-Decay Pagerank",
-           jadwal: "Jumat, 4 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 18,
-           name: "Yasmin Salamah",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Uji Kebergunaan Jarak Jauh Fitur Pencatatan Kesehatan Pribadi pada Aplikasi Mobile Thymun untuk Penderita Penyakit Kronis",
-           jadwal: "Jumat, 4 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 19,
-           name: "Lanang Satia Aji",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Back-End Knowledge Management System Budidaya Tanaman Buah",
-           jadwal: "Jumat, 4 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           //Kloter 2
-           id: 20,
-           name: "Cindana Putri Ramadhani",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 21,
-           name: "Anisa Nurjanah",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 22,
-           name: "Muhammad Dani Alfaris",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 23,
-           name: "Indah Puspita",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 24,
-           name: "Mursyid Alhadi",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 25,
-           name: "Hedianto Agus Widodo",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 26,
-           name: "Ryvan Arnandha Putra",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 27,
-           name: "Fadia Ramadhana",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
-           jadwal: "Senin, 7 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 28,
-           name: "Haidar Muhammad Yasin",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "12:30 - 13:00"
-         }, {
-           id: 29,
-           name: "I Nyoman Rai Widartha Kesuma",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "13:00 - 13:30"
-         }, {
-           id: 30,
-           name: "Muhammad Rifqi Prabantoro",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "13:30 - 14:00"
-         }, {
-           id: 31,
-           name: "Annisa Widia Astuti",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Active Contour Model Untuk Melakukan Ekstraksi Fitur Klinis Penderita Covid-19 Berbasis Citra CT Scan",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 32,
-           name: "Komang Elang Surya",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Pergerakan Manusia Dalam Penyebaran Penyakit Covid-19 Menggunakan Algoritme PageRank (Studi Kasus : Provinsi Jawa Timur)",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 33,
-           name: "Nadhir Dhanu Dwinanda",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis dan Perancangan Basis Data Graf dan Antarmuka untuk Sistem Rekomendasi Kuliner Lokal Berbasis Mobile pada Google Maps",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 34,
-           name: "T. Sandra Alyssa",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Implementasi Algoritma Grid Area Skyline untuk Pemilihan Lokasi berdasarkan Preferensi Fasilitas Sekitar Pada Google Maps",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 35,
-           name: "Meia Noer Muslimah",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Identifikasi Cabang Tanaman Melon pada Citra Red Green Blue Depth Menggunakan Teknik Instance Segmentation",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 36,
-           name: "Muhamad Guntur",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis Perbandingan Kinerja Protokol MQTT dan HTTP pada Perangkat IoT Pemantau Kualitas Udara",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 37,
-           name: "Usman Abdul Halim",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Aplikasi Manajemen VPS berbasis Web Menggunakan Teknologi KVM",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 38,
-           name: "Wahyudi Putra",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Usability Testing pada Sistem Marikultur Cerdas Kepulaian Seribu",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 39,
-           name: "Dhana Dhira",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan modul front-end untuk sistem intelligent monitoring IoT",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 40,
-           name: "	Bob Yuwono",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Penerapan Optical Character Recognition pada Pencatatan Nota Belanja",
-           jadwal: "Selasa, 8 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 41,
-           name: "Fathiya",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Frontend pada Aplikasi Pelelangan Ikan Terintegrasi berbasis Progressive Web App",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 42,
-           name: "Friska Meilani",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Front End Knowledge Management System (KMS) Budidaya Tanaman Buah",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 43,
-           name: "Yudit Yudiarto",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Back End berbasis REST API pada Aplikasi Pelelangan Ikan Terintegrasi",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 44,
-           name: "Titan Dayu Pratisena",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan User Experience Aplikasi Mobile Tokocabai dengan Metode Lean UX",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 45,
-           name: "Yasmin Lukman",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Pergerakan Manusia Dalam Penyebaran Penyakit Covid-19 Menggunakan Algoritme EpiRank di Wilayah Jabodetabek",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 46,
-           name: "Siti Nur Hasanah",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Prediksi Jumlah Kasus COVID-19 Berbasis Sosial, Ekonomi dan Demografi Menggunakan Gated Recurrent Unit RNN (Studi Kasus di Jawa Timur)",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 47,
-           name: "Avrienta Nouva Eka Putri",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Prediksi Jumlah Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan Long Short Term Memory (Studi Kasus di Jawa Timur)",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 48,
-           name: "Santi Amalia Ar-nur",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pemodelan Prediksi Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan ARIMA (Studi Kasus Jawa Timur)",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 49,
-           name: "Afifah Noviani",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan User Interface Aplikasi By-Polar untuk Orang dengan Gangguan Bipolar",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 50,
-           name: "Wanda Azizah Yasin",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "UX Research",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 51,
-           name: "Dina Fadila",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pendefinisian Sudut Pandang, Pengidean, dan Pembuatan Low-Fi Prototype pada Aplikasi By-Polar untuk Penderita Gangguan Bipolar",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 52,
-           name: "Najemi Putrianti",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Pengalaman Pemberi Pinjaman Lepas pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
-           jadwal: "Kamis, 10 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 53,
-           name: "Rafie Fadlurahman",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analyzing the Uncanny Valley as a Case of Simpson’s Paradox",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 54,
-           name: "Morgan Mendel",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Interaksi Menggunakan Metode Double Diamond untuk Edukasi dan Peminatan Specialty Coffee Lokal",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 55,
-           name: "Zaki Muttaqin",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Interaksi Konsumen Coffee Shop di Era Adaptasi Kebiasaan Baru dengan Metode Double Diamond",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 56,
-           name: "Muhammad Fauzan Azhim",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Sistem Informasi Workshop Trop BRC IPB Berbasis Web dengan Metode Prototyping",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 57,
-           name: "Reyhan Widyatna Harwenda",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Frontend Aplikasi IPB Connect Berbasis Web Menggunakan Metode Prototyping",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 58,
-           name: "Muhammad Zulkifli",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Backend Berbasis REST API pada Aplikasi IPB Connect",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 59,
-           name: "Muhamad Hilmy Haidar",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Modul Backend Pengelolaan Konten Berbasis REST API untuk Aplikasi Digital Tani",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 60,
-           name: "Hafizh Haritsa",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Fitur Diskusi Forum pada Aplikasi IPB Digital Tani Menggunakan Metode Prototyping",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 61,
-           name: "Fauzi Muhammad Sulaeman",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Pengalaman Peminjam Buku pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 62,
-           name: "Arih Ghina Wiranti",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Pengalaman Pemberi Pinjaman Terikat pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 63,
-           name: "Fajar Yuda Apriliano",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan DSpace sebagai Repositori Knowledge Hub untuk Badan Penelitian dan Pengembangan Kesehatan",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 64,
-           name: "Nabil Ahmad",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis Sentimen Pengguna Twitter Terhadap Pandemi COVID-19 di Indonesia Menggunakan Algoritme Klasifikasi Multinomial Naive Bayes",
-           jadwal: "Jumat, 11 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           // Kloter 3
-           id: 65,
-           name: "Chamdan L Abdulbaaqiy",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Machine Learning Model untuk Prediksi Efisiensi Obat Terhadap Kanker",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 66,
-           name: "Daffa Wicaksono",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Prediksi COVID-19 Outbreak dan pengaruh PSBB menggunakan Machine Learning",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 67,
-           name: "Rian Ardiana Prapanca",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Front End Berbasis REST API Panel Admin Digital Tani dengan Metode Prototyping",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 68,
-           name: "Dharmawan S",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis metabolite menggunakan deep learning",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 69,
-           name: "Muhammad Naufal Shidqi",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Analisis Implementasi Fitur Misi Harian Pada Video Game Terhadap Player Engagement Pada Mahasiswa",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 70,
-           name: "Muhammad Alfin Khalidi",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Evaluasi Pengalaman Pengguna dari In-Game Reward Berdasarkan Aktivitas Fisik pada Video Game untuk Mendorong Perilaku Hidup Sehat",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 71,
-           name: "Muhammad Rizqi Sinatrya",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Menguji Tingkat Engagement Prototipe Permainan Simulasi Perikanan melalui Playtesting dengan Model EGameFlow",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 72,
-           name: "Suko Martin",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Interaksi Manusia dengan Tanaman sebagai Edukasi Perawatan Tanaman",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }, {
-           id: 73,
-           name: "Bella Anggita Safitri",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Prediksi Interaksi Senyawa-Protein untuk Drug Repurposing Anti COVID-19 Menggunakan Convolutional Neural Network",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "15:30 - 16:00"
-         }, {
-           id: 74,
-           name: "Lidya Dwi Utami",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Prediksi Interaksi Senyawa dan Protein untuk Drug Repositioning Anti Covid-19 Menggunakan Metode Deep Neural Network",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:00 - 16:30"
-         }, {
-           id: 75,
-           name: "Ervan Sadhaly",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Perancangan Aplikasi Importance-Performance Analysis (IPA) dan Analisis Strengths, Weaknesses, Opportunities, Threats (SWOT) menggunakan R",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "16:30 - 17:00"
-         }, {
-           id: 76,
-           name: "Taufik Hidayat",
-           image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-           judul: "Pengembangan Front-End Aplikasi MAP-GIS Berbasis Web Menggunakan Framework Django",
-           jadwal: "Senin, 14 Desember 2020",
-           pukul: "17:00 - 17:30"
-         }]
+        //kloter 1
+        id: 1,
+        name: "Irfan Alghani Khalid",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Prediksi Kandidat Senyawa Herbal Sebagai Obat Anti-Virus SARS-CoV-2 Menggunakan Pemodelan Convolutional Neural Network",
+        jadwal: "Senin, 30 November 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 2,
+        name: "Refianto Damai Darmawan",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Screening Senyawa Herbal dengan Komputasi GPU pada Basis Data ZINC melalui Pendekatan Machine Learning",
+        jadwal: "Senin, 30 November 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 3,
+        name: "Dwi Fristanti Sagala ",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pencarian Protein Signifikan Terkait Inflamasi pada COVID-19 Dengan Menggunakan Skyline Query",
+        jadwal: "Senin, 30 November 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 4,
+        name: "Muh Alif Hanif Fadilah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Graf Traversing menggunakan teknik Branch and Bound untuk menemukan Senyawa Herbal untuk COVID-19",
+        jadwal: "Senin, 30 November 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 5,
+        name: "Elia Samuel",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Modul Simulasi Real Time Lintasan Kabut Asap Karhutla dengan HYSPLIT",
+        jadwal: "Selasa, 1 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 6,
+        name: "Fahreza Ikhsan Hafiz",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Klasifikasi Citra Histopatologi Kanker Serviks Menggunakan Metode Transfer Learning",
+        jadwal: "Selasa, 1 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 7,
+        name: "Mickael",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Modul Verifikasi Lintasan Kabut Asap Karhutla menggunakan Citra Himawari 8",
+        jadwal: "Selasa, 1 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 8,
+        name: "Intan Aida Rahmani",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Penerapan Algoritme Maximum Likelihood dan K-Nearest Neighbour untuk Identifikasi Lahan Bawang Putih Menggunakan Citra Sentinel 1-A",
+        jadwal: "Selasa, 1 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 9,
+        name: "Alfian Hamam Akbar",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network dan Support Vector Machine",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 10,
+        name: "M. Fakhri 'Alauddin Hidayat",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Sistem Informasi Manajemen Data Patroli Pencegahan Karhutla di Wilayah Sumatera",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }]
     };
   },
   watch: {
@@ -6143,6 +6310,17 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6225,6 +6403,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -10757,7 +10938,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv.marginleft[data-v-636362a8] {\r\n    margin-left: 160px;\r\n    margin-top: -195px;\n}\r\n/* img.bg {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\r\n} */\nimg.persons[data-v-636362a8] {\r\n    /* max-width: 150px; */\r\n    /* width: 100%;\r\n    height: auto; */\r\n    /* margin-top: 0;\r\n    margin-right: 33px; */\r\n    /* position: relative; */\r\n    /* width: 100%; */\r\n    /* max-width: 180px; */\r\n    /* height: auto; */\r\n    /* z-index: 2; */\n}\nimg.persons[data-v-636362a8]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-636362a8] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -53;\r\n    z-index: 2;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-636362a8] {\r\n    margin-left: 170px;\r\n    margin-top: -160px;\n}\nimg.bglayer[data-v-636362a8] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 50;\r\n    left: 15;\r\n    right: 0;\r\n    top: -53;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -10776,7 +10957,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv.marginleft[data-v-63717a29] {\r\n    /* margin-left: 10px; */\r\n    margin-top: -150px;\n}\nimg.bg[data-v-63717a29] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-63717a29] {\r\n    max-width: 150px;\r\n    margin-top: -40;\r\n    margin-left: 38px;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    /* left: 180px; */\r\n    /* tiap nambah orang + 127 px( 307 - 180 ) <- belom pasti jg */\r\n    z-index: 3;\n}\r\n/* ini efek hover */\nimg.persons[data-v-63717a29]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-63717a29] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 56;\r\n    left: 0;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 3;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-63717a29] {\r\n    margin-left: 96px;\r\n    margin-top: -198px;\n}\nimg.bg[data-v-63717a29] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-63717a29] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 30;\r\n    left: 16;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    top: -76;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -10795,7 +10976,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv.marginleft[data-v-637f91aa] {\r\n    margin-left: 110px;\r\n    margin-top: -150px;\n}\nimg.bg[data-v-637f91aa] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-637f91aa] {\r\n    max-width: 150px;\r\n    margin-top: -40;\r\n    margin-left: 35px;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    /* left: 180px; */\r\n    /* tiap nambah orang + 127 px( 307 - 180 ) <- belom pasti jg */\r\n    z-index: 3;\n}\r\n/* ini efek hover */\nimg.persons[data-v-637f91aa]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-637f91aa] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 55;\r\n    left: 0;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 3;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-637f91aa] {\r\n    margin-left: 175px;\r\n    margin-top: -220px;\n}\nimg.bg[data-v-637f91aa] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-637f91aa] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 93;\r\n    left: 16;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -10814,7 +10995,102 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv.marginleft[data-v-638da92b] {\r\n    margin-left: 20px;\r\n    margin-top: -150px;\n}\nimg.bg[data-v-638da92b] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.persons[data-v-638da92b] {\r\n    max-width: 150px;\r\n    margin-top: -40;\r\n    margin-left: 35px;\r\n    position: relative;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    /* left: 180px; */\r\n    /* tiap nambah orang + 127 px( 307 - 180 ) <- belom pasti jg */\r\n    z-index: 3;\n}\r\n/* ini efek hover */\nimg.persons[data-v-638da92b]:hover {\r\n    transform: scale(1.2);\n}\nimg.bglayer[data-v-638da92b] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 57;\r\n    left: 0;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 3;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-638da92b] {\r\n    margin-left: 96px;\r\n    margin-top: -228px;\n}\nimg.bg[data-v-638da92b] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-638da92b] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 115;\r\n    left: 15;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -76; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.marginleft[data-v-639bc0ac] {\r\n    margin-left: 175px;\r\n    margin-top: -248px;\n}\nimg.bg[data-v-639bc0ac] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-639bc0ac] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 133;\r\n    left: 15;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -76; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.marginleft[data-v-63a9d82d] {\r\n    margin-left: 96px;\r\n    margin-top: -270px;\n}\nimg.bg[data-v-63a9d82d] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-63a9d82d] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 165;\r\n    left: 18;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.marginleft[data-v-63b7efae] {\r\n    margin-left: 175px;\r\n    margin-top: -300px;\n}\nimg.bg[data-v-63b7efae] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-63b7efae] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 193;\r\n    left: 18;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.marginleft[data-v-63c6072f] {\r\n    margin-left: 96px;\r\n    margin-top: -330px;\n}\nimg.bg[data-v-63c6072f] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-63c6072f] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 215;\r\n    left: 18;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.marginleft[data-v-63d41eb0] {\r\n    margin-left: 175px;\r\n    margin-top: -370px;\n}\nimg.bg[data-v-63d41eb0] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-63d41eb0] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 243;\r\n    left: 18;\r\n    right: 0;\r\n    /* top ini sering diubah menyesuaikan */\r\n    /* top: -38; */\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
 
 // exports
 
@@ -10833,7 +11109,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.modal[data-v-5ecd560c] {\r\n    background-color: black;\r\n    opacity: 0.75;\r\n    /* !important; */\n}\n.modal-backdrop[data-v-5ecd560c] {\r\n    background-color: transparent;\n}\ndiv.marginleft[data-v-5ecd560c] {\r\n    margin-left: 110;\r\n    margin-top: -152;\n}\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    /* max-height: 100%; */\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -30;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv.marginleft[data-v-5ecd560c] {\r\n    margin-left: 110;\r\n    margin-top: -152;\n}\nimg.bg[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    /* max-height: 100%; */\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n    top: 0;\n}\nimg.bglayer[data-v-5ecd560c] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    bottom: 100;\r\n    left: 0;\r\n    right: 0;\r\n    top: -30;\r\n    z-index: 1;\r\n    position: relative;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv.root[data-v-a100b1da] {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n    overflow-y: hidden;\r\n    overflow-x: hidden;\n}\r\n", ""]);
 
 // exports
 
@@ -10852,7 +11147,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.persons {\r\n    /* width: 100%; */\r\n    max-width: 11vw;\r\n    height: auto;\r\n    margin-top: 20;\r\n    margin-right: 3.4vw;\r\n    position: relative;\r\n    /* object-fit: cover; */\r\n    z-index: 0;\n}\nimg.persons:hover {\r\n    transform: scale(1.2);\n}\r\n", ""]);
+exports.push([module.i, "\nimg.persons {\r\n    /* width: 100%; */\r\n    max-width: 11vw;\r\n    height: auto;\r\n    margin-top: 20;\r\n    margin-right: 3.4vw;\r\n    position: relative;\r\n    /* object-fit: cover; */\r\n    z-index: 1;\n}\nimg.persons:hover {\r\n    transform: scale(1.2);\n}\r\n", ""]);
 
 // exports
 
@@ -42168,6 +42463,156 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-top.vue?vue&type=style&index=0&id=5ecd560c&scoped=true&lang=css&":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-top.vue?vue&type=style&index=0&id=5ecd560c&scoped=true&lang=css& ***!
@@ -42177,6 +42622,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-top.vue?vue&type=style&index=0&id=5ecd560c&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-top.vue?vue&type=style&index=0&id=5ecd560c&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -42851,19 +43326,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "marginleft" }, [
-      _c(
-        "div",
-        _vm._l(_vm.profiles, function(profile) {
-          return _c("img", {
-            key: profile.name,
-            staticClass: "persons",
-            attrs: { src: profile.image }
-          })
-        }),
-        0
-      )
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
     ]),
     _vm._v(" "),
     _c("img", {
@@ -42894,19 +43370,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "marginleft" }, [
-      _c(
-        "div",
-        _vm._l(_vm.profiles, function(profile) {
-          return _c("img", {
-            key: profile.name,
-            staticClass: "persons",
-            attrs: { src: profile.image }
-          })
-        }),
-        0
-      )
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
     ]),
     _vm._v(" "),
     _c("img", {
@@ -42937,19 +43414,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "marginleft" }, [
-      _c(
-        "div",
-        _vm._l(_vm.profiles, function(profile) {
-          return _c("img", {
-            key: profile.name,
-            staticClass: "persons",
-            attrs: { src: profile.image }
-          })
-        }),
-        0
-      )
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
     ]),
     _vm._v(" "),
     _c("img", {
@@ -42980,24 +43458,245 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "marginleft" }, [
-      _c(
-        "div",
-        _vm._l(_vm.profiles, function(profile) {
-          return _c("img", {
-            key: profile.name,
-            staticClass: "persons",
-            attrs: { src: profile.image }
-          })
-        }),
-        0
-      )
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
     ]),
     _vm._v(" "),
     _c("img", {
       staticClass: "bglayer",
-      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-4.png */ "./public/billboard-layer-4.png"), alt: "" }
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-2.png */ "./public/billboard-layer-2.png"), alt: "" }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-3.png */ "./public/billboard-layer-3.png"), alt: "" }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-2.png */ "./public/billboard-layer-2.png"), alt: "" }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-3.png */ "./public/billboard-layer-3.png"), alt: "" }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-2.png */ "./public/billboard-layer-2.png"), alt: "" }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "marginleft" }, [
+        _c(
+          "div",
+          _vm._l(_vm.profiles, function(profile) {
+            return _c("imgcomponent", {
+              key: profile.id,
+              attrs: { profile: profile }
+            })
+          }),
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("img", {
+      staticClass: "bglayer",
+      attrs: { src: __webpack_require__(/*! ../../../public/billboard-layer-3.png */ "./public/billboard-layer-3.png"), alt: "" }
     })
   ])
 }
@@ -43063,10 +43762,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -43078,7 +43777,32 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("billboard-top")], 1)
+  return _c(
+    "div",
+    { staticClass: "root" },
+    [
+      _c("billboard-top"),
+      _vm._v(" "),
+      _c("billboard-1"),
+      _vm._v(" "),
+      _c("billboard-2"),
+      _vm._v(" "),
+      _c("billboard-3"),
+      _vm._v(" "),
+      _c("billboard-4"),
+      _vm._v(" "),
+      _c("billboard-5"),
+      _vm._v(" "),
+      _c("billboard-6"),
+      _vm._v(" "),
+      _c("billboard-7"),
+      _vm._v(" "),
+      _c("billboard-8"),
+      _vm._v(" "),
+      _c("billboard-9")
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -43154,10 +43878,14 @@ var render = function() {
   return _c(
     "div",
     {
+      directives: [
+        { name: "show", rawName: "v-show", value: _vm.show, expression: "show" }
+      ],
       staticClass: "modal",
       attrs: {
+        transition: "modal",
         id: "basicModal",
-        tabindex: "-1",
+        tabindex: "54",
         role: "dialog",
         "aria-labelledby": "basicModal",
         "aria-hidden": "true",
@@ -55451,17 +56179,6 @@ module.exports = "/images/billboard-layer-3.png?501ec994536e2ef2b6cac0b4ae0d155c
 
 /***/ }),
 
-/***/ "./public/billboard-layer-4.png":
-/*!**************************************!*\
-  !*** ./public/billboard-layer-4.png ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/billboard-layer-4.png?8c8c99e5439594691a4f6d18beefb54e";
-
-/***/ }),
-
 /***/ "./public/billboard-textbox.png":
 /*!**************************************!*\
   !*** ./public/billboard-textbox.png ***!
@@ -55502,6 +56219,11 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-1", __webpack_re
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-2", __webpack_require__(/*! ./components/billboard-2.vue */ "./resources/js/components/billboard-2.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-3", __webpack_require__(/*! ./components/billboard-3.vue */ "./resources/js/components/billboard-3.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-4", __webpack_require__(/*! ./components/billboard-4.vue */ "./resources/js/components/billboard-4.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-5", __webpack_require__(/*! ./components/billboard-5.vue */ "./resources/js/components/billboard-5.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-6", __webpack_require__(/*! ./components/billboard-6.vue */ "./resources/js/components/billboard-6.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-7", __webpack_require__(/*! ./components/billboard-7.vue */ "./resources/js/components/billboard-7.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-8", __webpack_require__(/*! ./components/billboard-8.vue */ "./resources/js/components/billboard-8.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component("billboard-9", __webpack_require__(/*! ./components/billboard-9.vue */ "./resources/js/components/billboard-9.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: "#app",
   router: new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"](_router_index__WEBPACK_IMPORTED_MODULE_3__["default"])
@@ -55989,6 +56711,441 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/billboard-5.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/billboard-5.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true& */ "./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true&");
+/* harmony import */ var _billboard_5_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboard-5.vue?vue&type=script&lang=js& */ "./resources/js/components/billboard-5.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& */ "./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _billboard_5_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "639bc0ac",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/billboard-5.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-5.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/billboard-5.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-5.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=style&index=0&id=639bc0ac&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_style_index_0_id_639bc0ac_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-5.vue?vue&type=template&id=639bc0ac&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_5_vue_vue_type_template_id_639bc0ac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-6.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/billboard-6.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true& */ "./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true&");
+/* harmony import */ var _billboard_6_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboard-6.vue?vue&type=script&lang=js& */ "./resources/js/components/billboard-6.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& */ "./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _billboard_6_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "63a9d82d",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/billboard-6.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-6.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/billboard-6.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-6.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=style&index=0&id=63a9d82d&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_style_index_0_id_63a9d82d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-6.vue?vue&type=template&id=63a9d82d&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_6_vue_vue_type_template_id_63a9d82d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-7.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/billboard-7.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboard-7.vue?vue&type=template&id=63b7efae&scoped=true& */ "./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true&");
+/* harmony import */ var _billboard_7_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboard-7.vue?vue&type=script&lang=js& */ "./resources/js/components/billboard-7.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& */ "./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _billboard_7_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "63b7efae",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/billboard-7.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-7.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/billboard-7.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-7.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=style&index=0&id=63b7efae&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_style_index_0_id_63b7efae_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-7.vue?vue&type=template&id=63b7efae&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-7.vue?vue&type=template&id=63b7efae&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_7_vue_vue_type_template_id_63b7efae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-8.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/billboard-8.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboard-8.vue?vue&type=template&id=63c6072f&scoped=true& */ "./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true&");
+/* harmony import */ var _billboard_8_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboard-8.vue?vue&type=script&lang=js& */ "./resources/js/components/billboard-8.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& */ "./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _billboard_8_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "63c6072f",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/billboard-8.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-8.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/billboard-8.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-8.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=style&index=0&id=63c6072f&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_style_index_0_id_63c6072f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-8.vue?vue&type=template&id=63c6072f&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-8.vue?vue&type=template&id=63c6072f&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_8_vue_vue_type_template_id_63c6072f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-9.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/billboard-9.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true& */ "./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true&");
+/* harmony import */ var _billboard_9_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboard-9.vue?vue&type=script&lang=js& */ "./resources/js/components/billboard-9.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& */ "./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _billboard_9_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "63d41eb0",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/billboard-9.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-9.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/billboard-9.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-9.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=style&index=0&id=63d41eb0&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_style_index_0_id_63d41eb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboard-9.vue?vue&type=template&id=63d41eb0&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboard_9_vue_vue_type_template_id_63d41eb0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/billboard-top.vue":
 /*!***************************************************!*\
   !*** ./resources/js/components/billboard-top.vue ***!
@@ -56085,9 +57242,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboardfull.vue?vue&type=template&id=a100b1da& */ "./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&");
+/* harmony import */ var _billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./billboardfull.vue?vue&type=template&id=a100b1da&scoped=true& */ "./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true&");
 /* harmony import */ var _billboardfull_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./billboardfull.vue?vue&type=script&lang=js& */ "./resources/js/components/billboardfull.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& */ "./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -56095,13 +57254,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _billboardfull_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "a100b1da",
   null
   
 )
@@ -56127,19 +57286,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&":
-/*!**********************************************************************************!*\
-  !*** ./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da& ***!
-  \**********************************************************************************/
+/***/ "./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=style&index=0&id=a100b1da&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_style_index_0_id_a100b1da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true& ***!
+  \**********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboardfull.vue?vue&type=template&id=a100b1da& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./billboardfull.vue?vue&type=template&id=a100b1da&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/billboardfull.vue?vue&type=template&id=a100b1da&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_billboardfull_vue_vue_type_template_id_a100b1da_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -1,12 +1,15 @@
 <template>
     <div
         class="modal"
+        v-show="show"
+        transition="modal"
         id="basicModal"
-        tabindex="-1"
+        tabindex="54"
         role="dialog"
         aria-labelledby="basicModal"
         aria-hidden="true"
         data-backdrop="false"
+        style=""
     >
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">

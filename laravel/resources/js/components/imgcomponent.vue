@@ -48,7 +48,7 @@ img.persons {
     margin-right: 3.4vw;
     position: relative;
     /* object-fit: cover; */
-    z-index: 0;
+    z-index: 1;
 }
 img.persons:hover {
     transform: scale(1.2);

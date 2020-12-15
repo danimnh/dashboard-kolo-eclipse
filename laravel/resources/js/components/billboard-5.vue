@@ -14,15 +14,15 @@
 
         <img
             class="bglayer"
-            src="../../../public/billboard-layer-2.png"
+            src="../../../public/billboard-layer-3.png"
             alt=""
         />
     </div>
 </template>
 <style scoped>
 div.marginleft {
-    margin-left: 96px;
-    margin-top: -228px;
+    margin-left: 175px;
+    margin-top: -248px;
 }
 img.bg {
     max-width: 100%;
@@ -35,7 +35,7 @@ img.bg {
 img.bglayer {
     max-width: 100%;
     max-height: 100%;
-    bottom: 115;
+    bottom: 133;
     left: 15;
     right: 0;
     /* top ini sering diubah menyesuaikan */
@@ -57,9 +57,9 @@ export default {
         return {
             profiles: [
                 {
-                    //39-48
+                    //58-67
                     id: 20,
-                    name: "BILLBOARD4",
+                    name: "BILLBOARD 5",
                     image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
                     judul:
                         "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
@@ -137,15 +137,6 @@ export default {
                         "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "12:30 - 13:00"
-                },
-                {
-                    id: 29,
-                    name: "I Nyoman Rai Widartha Kesuma",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
-                    jadwal: "Selasa, 8 Desember 2020",
-                    pukul: "13:00 - 13:30"
                 }
             ]
         };
