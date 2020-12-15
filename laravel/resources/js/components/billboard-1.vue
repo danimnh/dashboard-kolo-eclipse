@@ -65,42 +65,70 @@ export default {
     data() {
         return {
             profiles: [
-                {
-                    name: "person1",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person2",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person3",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person4",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person5",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person6",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person7",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person8",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                },
-                {
-                    name: "person9",
-                    image: "https://i.ibb.co/HgdSFBb/person-1-200.png"
-                }
+                 {
+        id: 11,
+        name: "Julius Christoper Siswanto",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 12,
+        name: "Ahmad Al-Banjaran Coeur d’Alene",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Identifikasi Lahan Bawang Putih di Sembalun Menggunakan Citra Sentinel 1-A dan Ensemble Learning",
+        jadwal: "Rabu, 2 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 13,
+        name: "Rizky Syawal Putra Thahirperson10",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Reengineering Aplikasi Patroli Karhutla dengan Business Logic Component Pattern dan Layered Architecture",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 14,
+        name: "M. Kamil",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Modul Akuisisi Data Pada Aplikasi Patroli Terpadu Kebakaran Hutan dan Lahan Menggunakan Metode Prototyping",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 15,
+        name: "Fakhoor Izaaz Wildhanrahman",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Perancangan User Experience Aplikasi HIJRAH ID dalam Peningkatan Literasi Zakat untuk Mualaf dengan Metode The Wheel",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }, {
+        id: 16,
+        name: "Muhammad Nur Hidayat",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Front-End Sistem Rantai Pasok Bawang Merah Berbasis Blockchain Menggunakan Metode Prototyping.",
+        jadwal: "Kamis, 3 Desember 2020",
+        pukul: "17:00 - 17:30"
+      }, {
+        id: 17,
+        name: "Rizha Al-fajri",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pemodelan Pergerakan Manusia Terhadap Penyebaran COVID-19 di Jawa Timur Menggunakan Algoritme Distance-Decay Pagerank",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "15:30 - 16:00"
+      }, {
+        id: 18,
+        name: "Yasmin Salamah",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Uji Kebergunaan Jarak Jauh Fitur Pencatatan Kesehatan Pribadi pada Aplikasi Mobile Thymun untuk Penderita Penyakit Kronis",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "16:00 - 16:30"
+      }, {
+        id: 19,
+        name: "Lanang Satia Aji",
+        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        judul: "Pengembangan Back-End Knowledge Management System Budidaya Tanaman Buah",
+        jadwal: "Jumat, 4 Desember 2020",
+        pukul: "16:30 - 17:00"
+      }
             ]
         };
     },
