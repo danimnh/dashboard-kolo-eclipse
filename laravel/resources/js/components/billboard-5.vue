@@ -58,75 +58,84 @@ export default {
             profiles: [
                 {
                     id: 49,
-                    name: "",
+                    name: "Afifah Noviani",
                     image: "images/eclipseprofile_blank.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan User Interface Aplikasi By-Polar untuk Orang dengan Gangguan Bipolar",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 50,
-                    name: "",
+                    name: "Wanda Azizah Yasin",
                     image: "images/eclipseprofile_50.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan User Interface Aplikasi By-Polar untuk Orang dengan Gangguan Bipolar",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 51,
-                    name: "",
+                    name: "Dina Fadila",
                     image: "images/eclipseprofile_51.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pendefinisian Sudut Pandang, Pengidean, dan Pembuatan Low-Fi Prototype pada Aplikasi By-Polar untuk Penderita Gangguan Bipolar",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 52,
-                    name: "",
+                    name: "Najemi Putrianti",
                     image: "images/eclipseprofile_blank.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Pengalaman Pemberi Pinjaman Lepas pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 53,
-                    name: "",
+                    name: "Rafie Fadlurahman",
                     image: "images/eclipseprofile_53.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Analyzing the Uncanny Valley as a Case of Simpson’s Paradox",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 54,
-                    name: "",
+                    name: "Morgan Mendel",
                     image: "images/eclipseprofile_54.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Interaksi Menggunakan Metode Double Diamond untuk Edukasi dan Peminatan Specialty Coffee Lokal",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 55,
-                    name: "",
+                    name: "Zaki Muttaqin",
                     image: "images/eclipseprofile_55.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Interaksi Konsumen Coffee Shop di Era Adaptasi Kebiasaan Baru dengan Metode Double Diamond",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 56,
-                    name: "",
+                    name: "Muhammad Fauzan Azhim",
                     image: "images/eclipseprofile_56.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Sistem Informasi Workshop Trop BRC IPB Berbasis Web dengan Metode Prototyping",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 57,
-                    name: "",
+                    name: "Reyhan Widyatna Harwenda",
                     image: "images/eclipseprofile_57.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Modul Frontend Aplikasi IPB Connect Berbasis Web Menggunakan Metode Prototyping",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 }
             ]
         };

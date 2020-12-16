@@ -56,85 +56,95 @@ export default {
     data() {
         return {
             profiles: [
-                {
+ {
                     id: 58,
-                    name: "",
+                    name: "Muhammad Zulkifli",
                     image: "images/eclipseprofile_58.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Modul Backend Berbasis REST API pada Aplikasi IPB Connect",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 59,
-                    name: "",
+                    name: "Muhamad Hilmy Haidar",
                     image: "images/eclipseprofile_59.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Modul Backend Pengelolaan Konten Berbasis REST API untuk Aplikasi Digital Tani",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 60,
-                    name: "",
+                    name: "Hafizh Haritsa",
                     image: "images/eclipseprofile_60.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Fitur Diskusi Forum pada Aplikasi IPB Digital Tani Menggunakan Metode Prototyping",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 61,
-                    name: "",
+                    name: "Fauzi Muhammad Sulaeman",
                     image: "images/eclipseprofile_61.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Pengalaman Peminjam Buku pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 62,
-                    name: "",
+                    name: "Arih Ghina Wiranti",
                     image: "images/eclipseprofile_62.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Pengalaman Pemberi Pinjaman Terikat pada Aplikasi Koper Pustaka Modul Peminjaman Berantai Menggunakan Metode Design Thinking",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 63,
-                    name: "",
+                    name: "Fajar Yuda Apriliano",
                     image: "images/eclipseprofile_63.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan DSpace sebagai Repositori Knowledge Hub untuk Badan Penelitian dan Pengembangan Kesehatan",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 64,
-                    name: "",
+                    name: "Nabil Ahmad",
                     image: "images/eclipseprofile_64.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Analisis Sentimen Pengguna Twitter Terhadap Pandemi COVID-19 di Indonesia Menggunakan Algoritme Klasifikasi Multinomial Naive Bayes",
+                    jadwal: "Jumat, 11 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 65,
-                    name: "",
+                    name: "Chamdan L Abdulbaaqiy",
                     image: "images/eclipseprofile_65.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Machine Learning Model untuk Prediksi Efisiensi Obat Terhadap Kanker",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 66,
-                    name: "",
+                    name: "Daffa Wicaksono",
                     image: "images/eclipseprofile_66.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Prediksi COVID-19 Outbreak dan pengaruh PSBB menggunakan Machine Learning",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 67,
-                    name: "",
+                    name: "Rian Ardiana Prapanca",
                     image: "images/eclipseprofile_67.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Front End Berbasis REST API Panel Admin Digital Tani dengan Metode Prototyping",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 }
             ]
         };

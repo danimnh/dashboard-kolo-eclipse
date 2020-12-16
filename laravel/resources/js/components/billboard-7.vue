@@ -58,75 +58,84 @@ export default {
             profiles: [
                 {
                     id: 68,
-                    name: "",
+                    name: "Dharmawan S",
                     image: "images/eclipseprofile_68.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Analisis metabolite menggunakan deep learning",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 69,
-                    name: "",
+                    name: "Muhammad Naufal Shidqi",
                     image: "images/eclipseprofile_69.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Analisis Implementasi Fitur Misi Harian Pada Video Game Terhadap Player Engagement Pada Mahasiswa",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 70,
-                    name: "",
+                    name: "Muhammad Alfin Khalidi",
                     image: "images/eclipseprofile_70.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Evaluasi Pengalaman Pengguna dari In-Game Reward Berdasarkan Aktivitas Fisik pada Video Game untuk Mendorong Perilaku Hidup Sehat",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 71,
-                    name: "",
+                    name: "Muhammad Rizqi Sinatrya",
                     image: "images/eclipseprofile_71.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Menguji Tingkat Engagement Prototipe Permainan Simulasi Perikanan melalui Playtesting dengan Model EGameFlow",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 72,
-                    name: "",
+                    name: "Suko Martin",
                     image: "images/eclipseprofile_72.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Interaksi Manusia dengan Tanaman sebagai Edukasi Perawatan Tanaman",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 },
                 {
                     id: 73,
-                    name: "",
+                    name: "Bella Anggita Safitri",
                     image: "images/eclipseprofile_73.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Prediksi Interaksi Senyawa-Protein untuk Drug Repurposing Anti COVID-19 Menggunakan Convolutional Neural Network",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "15:30 - 16:00"
                 },
                 {
                     id: 74,
-                    name: "",
+                    name: "Lidya Dwi Utami",
                     image: "images/eclipseprofile_74.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Prediksi Interaksi Senyawa dan Protein untuk Drug Repositioning Anti Covid-19 Menggunakan Metode Deep Neural Network",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:00 - 16:30"
                 },
                 {
                     id: 75,
-                    name: "",
+                    name: "Ervan Sadhaly",
                     image: "images/eclipseprofile_75.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Perancangan Aplikasi Importance-Performance Analysis (IPA) dan Analisis Strengths, Weaknesses, Opportunities, Threats (SWOT) menggunakan R",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "16:30 - 17:00"
                 },
                 {
                     id: 76,
-                    name: "",
+                    name: "Taufik Hidayat",
                     image: "images/eclipseprofile_blank.png",
-                    judul: "",
-                    jadwal: "",
-                    pukul: ""
+                    judul: 
+                        "Pengembangan Front-End Aplikasi MAP-GIS Berbasis Web Menggunakan Framework Django",
+                    jadwal: "Senin, 14 Desember 2020",
+                    pukul: "17:00 - 17:30"
                 }
             ]
         };
