@@ -50,7 +50,7 @@ export default {
                 {
                     id: 11,
                     name: "Julius Christoper Siswanto",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_11.png",
                     judul:
                         "Klasifikasi Kanker Serviks Pada Citra Pap Smear Menggunakan Model Convolutional Neural Network",
                     jadwal: "Rabu, 2 Desember 2020",

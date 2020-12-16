@@ -96,7 +96,7 @@ export default {
                 {
                     id: 24,
                     name: "Mursyid Alhadi",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_24.png",
                     judul:
                         "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
                     jadwal: "Senin, 7 Desember 2020",
@@ -114,7 +114,7 @@ export default {
                 {
                     id: 26,
                     name: "Ryvan Arnandha Putra",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_26.png",
                     judul:
                         "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
                     jadwal: "Senin, 7 Desember 2020",
@@ -141,7 +141,7 @@ export default {
                 {
                     id: 29,
                     name: "I Nyoman Rai Widartha Kesuma",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_29.png",
                     judul:
                         "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
                     jadwal: "Selasa, 8 Desember 2020",

@@ -60,7 +60,7 @@ export default {
                     //39-48
                     id: 39,
                     name: "Dhana Dhira",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_blank.png",
                     judul:
                         "Pengembangan modul front-end untuk sistem intelligent monitoring IoT",
                     jadwal: "Selasa, 8 Desember 2020",
@@ -69,7 +69,7 @@ export default {
                 {
                     id: 40,
                     name: "Bob Yuwono",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_40.png",
                     judul:
                         "Penerapan Optical Character Recognition pada Pencatatan Nota Belanja",
                     jadwal: "Selasa, 8 Desember 2020",
@@ -78,9 +78,8 @@ export default {
                 {
                     id: 41,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_41.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -88,8 +87,7 @@ export default {
                     id: 42,
                     name: "",
                     image: "images/eclipseprofile_42.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -97,17 +95,15 @@ export default {
                     id: 43,
                     name: "",
                     image: "images/eclipseprofile_43.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 44,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_44.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -115,8 +111,7 @@ export default {
                     id: 45,
                     name: "",
                     image: "images/eclipseprofile_45.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -124,26 +119,23 @@ export default {
                     id: 46,
                     name: "",
                     image: "images/eclipseprofile_46.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 47,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_47.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 48,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_48.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 }

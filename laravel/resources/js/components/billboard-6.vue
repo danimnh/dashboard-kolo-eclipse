@@ -59,18 +59,16 @@ export default {
                 {
                     id: 58,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_58.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 59,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_59.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -78,8 +76,7 @@ export default {
                     id: 60,
                     name: "",
                     image: "images/eclipseprofile_60.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -87,44 +84,39 @@ export default {
                     id: 61,
                     name: "",
                     image: "images/eclipseprofile_61.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 62,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_62.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 63,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_63.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 64,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_64.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 65,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_65.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
@@ -132,20 +124,18 @@ export default {
                     id: 66,
                     name: "",
                     image: "images/eclipseprofile_66.png",
-                    judul:
-                        "",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 67,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_67.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
-                },
+                }
             ]
         };
     }

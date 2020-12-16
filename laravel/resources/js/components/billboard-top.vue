@@ -108,7 +108,7 @@ export default {
                 {
                     id: 5,
                     name: "Elia Samuel",
-                    image: "images/eclipseprofile_16.png",
+                    image: "images/eclipseprofile_05.png",
                     judul:
                         "Pengembangan Modul Simulasi Real Time Lintasan Kabut Asap Karhutla dengan HYSPLIT",
                     jadwal: "Selasa, 1 Desember 2020",

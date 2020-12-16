@@ -69,7 +69,7 @@ export default {
                     id: 31,
                     name: "Annisa Widia Astuti",
                     image: "images/eclipseprofile_31.png",
-                    judul: 
+                    judul:
                         "Pengembangan Active Contour Model Untuk Melakukan Ekstraksi Fitur Klinis Penderita Covid-19 Berbasis Citra CT Scan",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "15.30 - 16.00"
@@ -100,13 +100,12 @@ export default {
                         "Implementasi Algoritma Grid Area Skyline untuk Pemilihan Lokasi berdasarkan Preferensi Fasilitas Sekitar Pada Google Maps",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "17.00-17.30"
-
                 },
                 {
                     id: 35,
                     name: "Muhamad Guntur",
                     image: "images/eclipseprofile_35.png",
-                    judul: 
+                    judul:
                         "Analisis Perbandingan Kinerja Protokol MQTT dan HTTP pada Perangkat IoT Pemantau Kualitas Udara",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "15.30 - 16.00"
@@ -114,8 +113,8 @@ export default {
                 {
                     id: 36,
                     name: "Meia Noer Muslimah",
-                    image: "images/eclipseprofile_16.png",
-                    judul: 
+                    image: "images/eclipseprofile_36.png",
+                    judul:
                         "Identifikasi Cabang Tanaman Melon pada Citra Red Green Blue Depth Menggunakan Teknik Instance Segmentation",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "16.00-16.30"
@@ -123,8 +122,8 @@ export default {
                 {
                     id: 37,
                     name: "Usman Abdul Halim",
-                    image: "images/eclipseprofile_16.png",
-                    judul: 
+                    image: "images/eclipseprofile_37.png",
+                    judul:
                         "Aplikasi Manajemen VPS berbasis Web Menggunakan Teknologi KVM",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "16.30-17.00"
@@ -133,7 +132,7 @@ export default {
                     id: 38,
                     name: "Wahyudi Putra",
                     image: "images/eclipseprofile_38.png",
-                    judul: 
+                    judul:
                         "Usability Testing pada Sistem Marikultur Cerdas Kepulaian Seribu",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "15.30 - 16.00"

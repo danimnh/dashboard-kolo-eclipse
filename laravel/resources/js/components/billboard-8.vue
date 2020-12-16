@@ -59,93 +59,83 @@ export default {
                 {
                     id: 76,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 77,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 78,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 79,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 80,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 81,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 83,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 84,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 85,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
                 },
                 {
                     id: 86,
                     name: "",
-                    image: "images/eclipseprofile_16.png",
-                    judul:
-                        "",
+                    image: "images/eclipseprofile_blank.png",
+                    judul: "",
                     jadwal: "",
                     pukul: ""
-                },
+                }
             ]
         };
     }
