@@ -58,94 +58,94 @@ export default {
             profiles: [
                 {
                     //39-48
-                    id: 20,
-                    name: "BILLBOARD4",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 39,
+                    name: "Dhana Dhira",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "15:30 - 16:00"
-                },
-                {
-                    id: 21,
-                    name: "Anisa Nurjanah",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:00 - 16:30"
-                },
-                {
-                    id: 22,
-                    name: "Muhammad Dani Alfaris",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:30 - 17:00"
-                },
-                {
-                    id: 23,
-                    name: "Indah Puspita",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "17:00 - 17:30"
-                },
-                {
-                    id: 24,
-                    name: "Mursyid Alhadi",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "15:30 - 16:00"
-                },
-                {
-                    id: 25,
-                    name: "Hedianto Agus Widodo",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:00 - 16:30"
-                },
-                {
-                    id: 26,
-                    name: "Ryvan Arnandha Putra",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:30 - 17:00"
-                },
-                {
-                    id: 27,
-                    name: "Fadia Ramadhana",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "17:00 - 17:30"
-                },
-                {
-                    id: 28,
-                    name: "Haidar Muhammad Yasin",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
-                    judul:
-                        "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
+                        "Pengembangan modul front-end untuk sistem intelligent monitoring IoT",
                     jadwal: "Selasa, 8 Desember 2020",
-                    pukul: "12:30 - 13:00"
+                    pukul: "16:00 - 16.30"
                 },
                 {
-                    id: 29,
-                    name: "I Nyoman Rai Widartha Kesuma",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 40,
+                    name: "Bob Yuwono",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
+                        "Penerapan Optical Character Recognition pada Pencatatan Nota Belanja",
                     jadwal: "Selasa, 8 Desember 2020",
-                    pukul: "13:00 - 13:30"
+                    pukul: "16:30 - 17.00"
+                },
+                {
+                    id: 41,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 42,
+                    name: "",
+                    image: "images/eclipseprofile_42.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 43,
+                    name: "",
+                    image: "images/eclipseprofile_43.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 44,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 45,
+                    name: "",
+                    image: "images/eclipseprofile_45.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 46,
+                    name: "",
+                    image: "images/eclipseprofile_46.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 47,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
+                {
+                    id: 48,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 }
             ]
         };

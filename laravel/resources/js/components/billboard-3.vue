@@ -57,46 +57,86 @@ export default {
         return {
             profiles: [
                 {
-                    //30-38
                     id: 30,
                     name: "Muhammad Rifqi Prabantoro",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_30.png",
                     judul:
                         "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
                     jadwal: "Selasa, 8 Desember 2020",
                     pukul: "13:30 - 14:00"
                 },
                 {
-                    name: "person2",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 31,
+                    name: "Annisa Widia Astuti",
+                    image: "images/eclipseprofile_31.png",
+                    judul: 
+                        "Pengembangan Active Contour Model Untuk Melakukan Ekstraksi Fitur Klinis Penderita Covid-19 Berbasis Citra CT Scan",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "15.30 - 16.00"
                 },
                 {
-                    name: "person3",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 32,
+                    name: "Komang Elang Surya",
+                    image: "images/eclipseprofile_32.png",
+                    judul:
+                        "Pemodelan Pergerakan Manusia Dalam Penyebaran Penyakit Covid-19 Menggunakan Algoritme PageRank (Studi Kasus : Provinsi Jawa Timur)",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "16.00 - 16.30"
                 },
                 {
-                    name: "person4",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 33,
+                    name: "Nadhir Dhanu Dwinanda",
+                    image: "images/eclipseprofile_33.png",
+                    judul:
+                        "Analisis dan Perancangan Basis Data Graf dan Antarmuka untuk Sistem Rekomendasi Kuliner Lokal Berbasis Mobile pada Google Maps",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "16.30 - 17.00"
                 },
                 {
-                    name: "person5",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 34,
+                    name: "T. Sandra Alyssa",
+                    image: "images/eclipseprofile_34.png",
+                    judul:
+                        "Implementasi Algoritma Grid Area Skyline untuk Pemilihan Lokasi berdasarkan Preferensi Fasilitas Sekitar Pada Google Maps",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "17.00-17.30"
+
                 },
                 {
-                    name: "person6",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 35,
+                    name: "Muhamad Guntur",
+                    image: "images/eclipseprofile_35.png",
+                    judul: 
+                        "Analisis Perbandingan Kinerja Protokol MQTT dan HTTP pada Perangkat IoT Pemantau Kualitas Udara",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "15.30 - 16.00"
                 },
                 {
-                    name: "person7",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 36,
+                    name: "Meia Noer Muslimah",
+                    image: "images/eclipseprofile_16.png",
+                    judul: 
+                        "Identifikasi Cabang Tanaman Melon pada Citra Red Green Blue Depth Menggunakan Teknik Instance Segmentation",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "16.00-16.30"
                 },
                 {
-                    name: "person8",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 37,
+                    name: "Usman Abdul Halim",
+                    image: "images/eclipseprofile_16.png",
+                    judul: 
+                        "Aplikasi Manajemen VPS berbasis Web Menggunakan Teknologi KVM",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "16.30-17.00"
                 },
                 {
-                    name: "person9",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 38,
+                    name: "Wahyudi Putra",
+                    image: "images/eclipseprofile_38.png",
+                    judul: 
+                        "Usability Testing pada Sistem Marikultur Cerdas Kepulaian Seribu",
+                    jadwal: "Selasa, 8 Desember 2020",
+                    pukul: "15.30 - 16.00"
                 }
             ]
         };

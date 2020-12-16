@@ -60,7 +60,7 @@ export default {
                     //Kloter 2
                     id: 20,
                     name: "Cindana Putri Ramadhani",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_20.png",
                     judul:
                         "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
                     jadwal: "Senin, 7 Desember 2020",
@@ -69,7 +69,7 @@ export default {
                 {
                     id: 21,
                     name: "Anisa Nurjanah",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_21.png",
                     judul:
                         "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
                     jadwal: "Senin, 7 Desember 2020",
@@ -78,7 +78,7 @@ export default {
                 {
                     id: 22,
                     name: "Muhammad Dani Alfaris",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_22.png",
                     judul:
                         "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
                     jadwal: "Senin, 7 Desember 2020",
@@ -87,7 +87,7 @@ export default {
                 {
                     id: 23,
                     name: "Indah Puspita",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_23.png",
                     judul:
                         "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
                     jadwal: "Senin, 7 Desember 2020",
@@ -96,7 +96,7 @@ export default {
                 {
                     id: 24,
                     name: "Mursyid Alhadi",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_16.png",
                     judul:
                         "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
                     jadwal: "Senin, 7 Desember 2020",
@@ -105,7 +105,7 @@ export default {
                 {
                     id: 25,
                     name: "Hedianto Agus Widodo",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_25.png",
                     judul:
                         "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
                     jadwal: "Senin, 7 Desember 2020",
@@ -114,7 +114,7 @@ export default {
                 {
                     id: 26,
                     name: "Ryvan Arnandha Putra",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_16.png",
                     judul:
                         "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
                     jadwal: "Senin, 7 Desember 2020",
@@ -123,7 +123,7 @@ export default {
                 {
                     id: 27,
                     name: "Fadia Ramadhana",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_27.png",
                     judul:
                         "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
                     jadwal: "Senin, 7 Desember 2020",
@@ -132,7 +132,7 @@ export default {
                 {
                     id: 28,
                     name: "Haidar Muhammad Yasin",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_28.png",
                     judul:
                         "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
                     jadwal: "Selasa, 8 Desember 2020",
@@ -141,7 +141,7 @@ export default {
                 {
                     id: 29,
                     name: "I Nyoman Rai Widartha Kesuma",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_16.png",
                     judul:
                         "Evaluasi Usability Aplikasi Mobile KMS Sawit Rakyat Berbasis Participatory",
                     jadwal: "Selasa, 8 Desember 2020",

@@ -57,87 +57,86 @@ export default {
         return {
             profiles: [
                 {
-                    //58-67
-                    id: 20,
-                    name: "BILLBOARD 5",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 49,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Pengembangan Sistem Informasi Geografis Manajemen Data Fasilitas Jalan Tol berbasis Web",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "15:30 - 16:00"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 21,
-                    name: "Anisa Nurjanah",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 50,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Pengembangan Sistem Informasi Geografis pada Manajemen Data Jalan dan Data Administrasi Jalan Tol berbasis web",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:00 - 16:30"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 22,
-                    name: "Muhammad Dani Alfaris",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 51,
+                    name: "",
+                    image: "images/eclipseprofile_51.png",
                     judul:
-                        "Pengembangan Aplikasi Buku Kerja Mandor Kelapa Sawit",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:30 - 17:00"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 23,
-                    name: "Indah Puspita",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 52,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Implementasi Deep Learning untuk Mempelajari Teknik Mediasi Orang Tua terhadap Penggunaan Teknologi oleh Anak di Bogor",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "17:00 - 17:30"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 24,
-                    name: "Mursyid Alhadi",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 53,
+                    name: "",
+                    image: "images/eclipseprofile_53.png",
                     judul:
-                        "Prediksi Kandidat Senyawa Herbal Sebagai Anti-Virus COVID-19 Menggunakan Teknik Jejaring Bipartite",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "15:30 - 16:00"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 25,
-                    name: "Hedianto Agus Widodo",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 54,
+                    name: "",
+                    image: "images/eclipseprofile_54.png",
                     judul:
-                        "Screening Senyawa Herbal untuk COVID-19 Menggunakan Metode Multi-label Learning dengan Algoritme Deep Neural Network",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:00 - 16:30"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 26,
-                    name: "Ryvan Arnandha Putra",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 55,
+                    name: "",
+                    image: "images/eclipseprofile_55.png",
                     judul:
-                        "Analisis Jaringan Penyakit untuk Identifikasi Penyakit Komorbid Dominan Terkait Covid-19",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "16:30 - 17:00"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 27,
-                    name: "Fadia Ramadhana",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 56,
+                    name: "",
+                    image: "images/eclipseprofile_56.png",
                     judul:
-                        "Identifikasi Penyakit Pneumonia COVID-19 Berbasis Citra Computed Tomography (CT) Menggunakan Deep Transfer Learning ",
-                    jadwal: "Senin, 7 Desember 2020",
-                    pukul: "17:00 - 17:30"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    id: 28,
-                    name: "Haidar Muhammad Yasin",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 57,
+                    name: "",
+                    image: "images/eclipseprofile_57.png",
                     judul:
-                        "Pengembangan Aplikasi Mobile Marketplace Kepulauan Seribu Menggunakan Metode Waterfall",
-                    jadwal: "Selasa, 8 Desember 2020",
-                    pukul: "12:30 - 13:00"
-                }
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
             ]
         };
     }

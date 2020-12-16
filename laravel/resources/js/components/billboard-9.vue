@@ -57,47 +57,86 @@ export default {
         return {
             profiles: [
                 {
-                    //30-38
-                    id: 30,
-                    name: "BILLBOARD 9",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 87,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
                     judul:
-                        "Pengembangan Prototipe Blockchain Platform Untuk Sistem Rantai Pasok Bawang Merah",
-                    jadwal: "Selasa, 8 Desember 2020",
-                    pukul: "13:30 - 14:00"
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person2",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 88,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person3",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 89,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person4",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 90,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person5",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 91,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person6",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 92,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person7",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 93,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person8",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
+                    id: 94,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
                 },
                 {
-                    name: "person9",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png"
-                }
+                    id: 95,
+                    name: "",
+                    image: "images/eclipseprofile_16.png",
+                    judul:
+                        "",
+                    jadwal: "",
+                    pukul: ""
+                },
             ]
         };
     }
