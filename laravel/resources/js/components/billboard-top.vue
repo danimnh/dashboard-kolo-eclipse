@@ -72,7 +72,7 @@ export default {
                     //kloter 1
                     id: 1,
                     name: "Irfan Alghani Khalid",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    image: "images/eclipseprofile_01.png",
                     judul:
                         "Prediksi Kandidat Senyawa Herbal Sebagai Obat Anti-Virus SARS-CoV-2 Menggunakan Pemodelan Convolutional Neural Network",
                     jadwal: "Senin, 30 November 2020",

@@ -44,7 +44,7 @@ img.persons {
     /* width: 100%; */
     max-width: 11vw;
     height: auto;
-    margin-top: 20;
+    margin-top: 2 0;
     margin-right: 3.4vw;
     position: relative;
     /* object-fit: cover; */

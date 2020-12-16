@@ -6217,7 +6217,7 @@ __webpack_require__.r(__webpack_exports__);
         //kloter 1
         id: 1,
         name: "Irfan Alghani Khalid",
-        image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+        image: "images/eclipseprofile_01.png",
         judul: "Prediksi Kandidat Senyawa Herbal Sebagai Obat Anti-Virus SARS-CoV-2 Menggunakan Pemodelan Convolutional Neural Network",
         jadwal: "Senin, 30 November 2020",
         pukul: "15:30 - 16:00"
@@ -11147,7 +11147,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.persons {\r\n    /* width: 100%; */\r\n    max-width: 11vw;\r\n    height: auto;\r\n    margin-top: 20;\r\n    margin-right: 3.4vw;\r\n    position: relative;\r\n    /* object-fit: cover; */\r\n    z-index: 1;\n}\nimg.persons:hover {\r\n    transform: scale(1.2);\n}\r\n", ""]);
+exports.push([module.i, "\nimg.persons {\r\n    /* width: 100%; */\r\n    max-width: 11vw;\r\n    height: auto;\r\n    margin-top: 2 0;\r\n    margin-right: 3.4vw;\r\n    position: relative;\r\n    /* object-fit: cover; */\r\n    z-index: 1;\n}\nimg.persons:hover {\r\n    transform: scale(1.2);\n}\r\n", ""]);
 
 // exports
 
