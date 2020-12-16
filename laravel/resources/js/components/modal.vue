@@ -30,6 +30,7 @@
                 <div class="modal-body">
                     <h3>{{ profile.judul }}</h3>
                     <h3>{{ profile.jadwal }}</h3>
+                    <h3>{{ profile.pukul }}</h3>
                 </div>
                 <div class="modal-footer">
                     <button
