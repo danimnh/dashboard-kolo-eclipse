@@ -77,8 +77,17 @@ export default {
                 },
                 {
                     id: 41,
-                    name: "Fathiya",
+                    name: "Titan Dayu Pratisena",
                     image: "images/eclipseprofile_41.png",
+                    judul:
+                        "Perancangan User Experience Aplikasi Mobile Tokocabai dengan Metode Lean UX",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "17:00 - 17:30"
+                },
+                {
+                    id: 41,
+                    name: "Fathiya",
+                    image: "images/eclipseprofile_42.png",
                     judul:
                         "Pengembangan Frontend pada Aplikasi Pelelangan Ikan Terintegrasi berbasis Progressive Web App",
                     jadwal: "Kamis, 10 Desember 2020",
@@ -87,7 +96,7 @@ export default {
                 {
                     id: 42,
                     name: "Friska Meilani",
-                    image: "images/eclipseprofile_42.png",
+                    image: "images/eclipseprofile_43.png",
                     judul:
                         "Pengembangan Front End Knowledge Management System (KMS) Budidaya Tanaman Buah",
                     jadwal: "Kamis, 10 Desember 2020",
@@ -96,57 +105,48 @@ export default {
                 {
                     id: 43,
                     name: "Yudit Yudiarto",
-                    image: "images/eclipseprofile_43.png",
+                    image: "images/eclipseprofile_44.png",
                     judul:
                         "Pengembangan Back End berbasis REST API pada Aplikasi Pelelangan Ikan Terintegrasi",
                     jadwal: "Kamis, 10 Desember 2020",
                     pukul: "16:30 - 17:00"
                 },
                 {
-                    id: 44,
-                    name: "Titan Dayu Pratisena",
-                    image: "images/eclipseprofile_44.png",
-                    image: "https://i.ibb.co/2F4cxkx/person-1-125.png",
+                    id: 47,
+                    name: "Avrienta Nouva Eka Putri",
+                    image: "images/eclipseprofile_46.png",
                     judul:
-                        "Perancangan User Experience Aplikasi Mobile Tokocabai dengan Metode Lean UX",
+                        "Pemodelan Prediksi Jumlah Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan Long Short Term Memory (Studi Kasus di Jawa Timur)",
+                    jadwal: "Kamis, 10 Desember 2020",
+                    pukul: "16:30 - 17:00"
+                },
+
+                {
+                    id: 48,
+                    name: "Santi Amalia Ar-nur",
+                    image: "images/eclipseprofile_47.png",
+                    judul:
+                        "Pemodelan Prediksi Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan ARIMA (Studi Kasus Jawa Timur)",
                     jadwal: "Kamis, 10 Desember 2020",
                     pukul: "17:00 - 17:30"
                 },
                 {
-                    id: 45,
-                    name: "Yasmin Lukman",
-                    image: "images/eclipseprofile_45.png",
-                    judul:
-                        "Pemodelan Pergerakan Manusia Dalam Penyebaran Penyakit Covid-19 Menggunakan Algoritme EpiRank di Wilayah Jabodetabek",
-                    jadwal: "Kamis, 10 Desember 2020",
-                    pukul: "15:30 - 16:00"
-                },
-                {
                     id: 46,
                     name: "Siti Nur Hasanah",
-                    image: "images/eclipseprofile_46.png",
+                    image: "images/eclipseprofile_45.png",
                     judul:
                         "Pemodelan Prediksi Jumlah Kasus COVID-19 Berbasis Sosial, Ekonomi dan Demografi Menggunakan Gated Recurrent Unit RNN (Studi Kasus di Jawa Timur)",
                     jadwal: "Kamis, 10 Desember 2020",
                     pukul: "16:00 - 16:30"
                 },
                 {
-                    id: 47,
-                    name: "Avrienta Nouva Eka Putri",
-                    image: "images/eclipseprofile_47.png",
-                    judul:
-                        "Pemodelan Prediksi Jumlah Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan Long Short Term Memory (Studi Kasus di Jawa Timur)",
-                    jadwal: "Kamis, 10 Desember 2020",
-                    pukul: "16:30 - 17:00"
-                },
-                {
-                    id: 48,
-                    name: "Santi Amalia Ar-nur",
+                    id: 49,
+                    name: "Afifah Noviani",
                     image: "images/eclipseprofile_48.png",
                     judul:
-                        "Pemodelan Prediksi Kasus COVID-19 Berbasis Demografi, Sosial, dan Ekonomi Menggunakan ARIMA (Studi Kasus Jawa Timur)",
+                        "Perancangan User Interface Aplikasi By-Polar untuk Orang dengan Gangguan Bipolar",
                     jadwal: "Kamis, 10 Desember 2020",
-                    pukul: "17:00 - 17:30"
+                    pukul: "15:30 - 16:00"
                 }
             ]
         };

@@ -25,7 +25,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "heroku": "^7.47.5"
+        "heroku": "^7.47.5",
+        "vue-router": "^3.4.9"
     },
     "engines": {
         "node": "12.16.3",
